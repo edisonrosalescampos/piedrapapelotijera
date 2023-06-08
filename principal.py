@@ -4,7 +4,7 @@ def jugar():
   opciones    = ["piedra", "papel", "tijera"]
   computadora = opciones[random.randint(0, 2)] 
 
-  print("BIENVENIDO AL JUEGO DE PIEDRA, PAPEL Y TIJERA")
+  print("BIENVENIDO AL JUEGO DE PIEDRA, PAPEL Y TIJERA\n")
 
   usuario = input("Escriba piedra, papel o tijera: ")
 
