@@ -9,7 +9,7 @@ def jugar():
     computadora = opciones[random.randint(0, 2)] 
     usuario     = input("Escriba piedra, papel o tijera: ")
 
-    print(f"Tú: {usuario} vs PC: {computadora}")
+    print(f"Tú: {usuario.capitalize()} vs PC: {computadora.capitalize()}")
 
     # Empate
     if usuario == computadora:
