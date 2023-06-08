@@ -38,7 +38,7 @@ def jugar():
 
     print()
 
-    reiniciar = input("¿Quiere seguir jugando? (s/n): ")
+    reiniciar = input("¿Quieres seguir jugando? (s/n): ")
     continuar = reiniciar.lower() == "s"
 
 jugar()
